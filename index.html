@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>2048游戏</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <p class="header">SCORE:<span id="score">0</span></p>
+    <div id="gameBody">
+      <div class="cell" id="cell-00"></div>
+      <div class="cell" id="cell-01"></div>
+      <div class="cell" id="cell-02"></div>
+      <div class="cell" id="cell-03"></div>
+      <div class="cell" id="cell-10"></div>
+      <div class="cell" id="cell-11"></div>
+      <div class="cell" id="cell-12"></div>
+      <div class="cell" id="cell-13"></div>
+      <div class="cell" id="cell-20"></div>
+      <div class="cell" id="cell-21"></div>
+      <div class="cell" id="cell-22"></div>
+      <div class="cell" id="cell-23"></div>
+      <div class="cell" id="cell-30"></div>
+      <div class="cell" id="cell-31"></div>
+      <div class="cell" id="cell-32"></div>
+      <div class="cell" id="cell-33"></div>
+    </div>
+    <div id="gameOver">
+      <p>
+        游戏结束<br>
+        SCORE:<span id="final">0</span><br>
+        <a href="javascript:start();" class="btn">重新开始</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
